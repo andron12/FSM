@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/UIComponent","sap/ui/Device","epam/ui5extension/model/models"],function(e,s,t){"use strict";return e.extend("epam.ui5extension.Component",{metadata:{manifest:"json"},init:function(){e.prototype.init.apply(this,arguments);sap.ui.loader.config({paths:{"sap/coresystems/fsm-shell":"https://unpkg.com/fsm-shell@1.20.0/release/fsm-shell-client"},shim:{"sap/coresystems/fsm-shell":{amd:true,exports:"FSMShell"}},async:true});this.getRouter().initialize();this.setModel(t.createDeviceModel(),"device")}})});
+//# sourceMappingURL=Component.js.map
