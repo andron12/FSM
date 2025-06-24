@@ -47,7 +47,7 @@ function (Controller) {
        
         },
         callFSMEquipmentAPI: function (token) {
-      fetch("https://your-fsm-url/api/v1/equipment", {
+      fetch("https://eu.fsm.cloud.sap/api/v1/equipment", {
         method: "GET",
         headers: {
           Authorization: `Bearer ${token}`,
