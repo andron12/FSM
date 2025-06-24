@@ -4,7 +4,7 @@
   "type": "hosted",
   "hosting": {
     "type": "static",
-    "url": "https://andron12.github.io/FSM/"
+    "url": "https://your-username.github.io/sap-fsm-my-extension/"
   },
   "authentication": {
     "type": "none"
